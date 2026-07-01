@@ -1,6 +1,6 @@
 {
   "name": "@gl-zcc/ol-location-navigation",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "description": "OpenLayers location and route navigation component for geo maps and indoor image maps.",
   "homepage": "https://glzcc.github.io/ol-location-navigation/",
