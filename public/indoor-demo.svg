@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="451" height="451" viewBox="0 0 451 451">
+  <rect width="451" height="451" fill="#f4f6f3"/>
+  <g fill="#d9ded9" stroke="#9aa39b" stroke-width="2">
+    <path d="M39 137h86v75h-86z"/>
+    <path d="M125 137h69v106h-69z"/>
+    <path d="M194 137h72v106h-72z"/>
+    <path d="M266 126h93v232h-93z"/>
+    <path d="M295 89h70v38h-70z"/>
+    <path d="M207 243h59v115h-59z"/>
+    <path d="M39 243h82v78h-82z"/>
+    <path d="M121 243h86v48h-86z"/>
+    <path d="M359 288h49v70h-49z"/>
+  </g>
+  <g fill="#9fbea4" stroke="#7d997f" stroke-width="1.5">
+    <path d="M42 141h80v70h-80z"/>
+    <path d="M128 141h62v99h-62z"/>
+    <path d="M197 141h65v99h-65z"/>
+    <path d="M269 129h87v226h-87z"/>
+    <path d="M299 93h62v31h-62z"/>
+    <path d="M211 247h51v108h-51z"/>
+    <path d="M43 247h75v71h-75z"/>
+    <path d="M124 247h79v40h-79z"/>
+  </g>
+  <g fill="none" stroke="#6f7a72" stroke-width="3" stroke-linecap="square">
+    <path d="M39 137h86v75h-86v-75z"/>
+    <path d="M125 137h69v106h-69v-106z"/>
+    <path d="M194 137h72v106h-72v-106z"/>
+    <path d="M266 126h93v232h-93v-232z"/>
+    <path d="M295 89h70v38h-70v-38z"/>
+    <path d="M207 243h59v115h-59v-115z"/>
+    <path d="M39 243h82v78h-82v-78z"/>
+    <path d="M121 243h86v48h-86v-48z"/>
+    <path d="M359 288h49v70h-49"/>
+  </g>
+  <g fill="#cbd2cb" stroke="#8d968f" stroke-width="1.5">
+    <rect x="39" y="160" width="10" height="56"/>
+    <rect x="42" y="302" width="62" height="15"/>
+    <rect x="222" y="248" width="38" height="22"/>
+    <rect x="216" y="320" width="13" height="28"/>
+    <rect x="295" y="89" width="70" height="6"/>
+    <rect x="291" y="350" width="85" height="8"/>
+  </g>
+  <g fill="none" stroke="#6f7a72" stroke-width="2">
+    <path d="M161 210a31 31 0 0 1-31 31"/>
+    <path d="M195 210a31 31 0 0 0 31 31"/>
+    <path d="M360 326a33 33 0 0 1 33-33"/>
+    <path d="M99 244a31 31 0 0 0-31-31"/>
+    <path d="M263 287a42 42 0 0 0-42 42"/>
+  </g>
+  <g fill="#eef1ee" stroke="#aab2aa" stroke-width="1">
+    <rect x="58" y="268" width="43" height="26" rx="3"/>
+    <rect x="162" y="250" width="33" height="31" rx="2"/>
+    <path d="M239 270h23v37h-23z"/>
+    <path d="M239 270l23 37"/>
+  </g>
+</svg>

@@ -1,0 +1,87 @@
+{
+  "floors": [
+    {
+      "id": "F1",
+      "name": "一层"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "entrance",
+      "coord": [72, 386],
+      "floorId": "F1",
+      "label": "入口",
+      "type": "entrance"
+    },
+    {
+      "id": "hall",
+      "coord": [183, 386],
+      "floorId": "F1",
+      "label": "大厅"
+    },
+    {
+      "id": "corridor",
+      "coord": [183, 242],
+      "floorId": "F1",
+      "label": "走廊"
+    },
+    {
+      "id": "meeting",
+      "coord": [328, 242],
+      "floorId": "F1",
+      "label": "会议室",
+      "type": "poi"
+    },
+    {
+      "id": "office",
+      "coord": [328, 126],
+      "floorId": "F1",
+      "label": "办公室",
+      "type": "poi"
+    },
+    {
+      "id": "stairs",
+      "coord": [94, 126],
+      "floorId": "F1",
+      "label": "楼梯",
+      "type": "stairs"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e-entrance-hall",
+      "from": "entrance",
+      "to": "hall",
+      "type": "walk",
+      "bidirectional": true
+    },
+    {
+      "id": "e-hall-corridor",
+      "from": "hall",
+      "to": "corridor",
+      "type": "walk",
+      "bidirectional": true
+    },
+    {
+      "id": "e-corridor-meeting",
+      "from": "corridor",
+      "to": "meeting",
+      "type": "walk",
+      "bidirectional": true
+    },
+    {
+      "id": "e-meeting-office",
+      "from": "meeting",
+      "to": "office",
+      "type": "walk",
+      "bidirectional": true
+    },
+    {
+      "id": "e-corridor-stairs",
+      "from": "corridor",
+      "to": "stairs",
+      "type": "walk",
+      "bidirectional": true
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "name": "@gl-zcc/ol-location-navigation",
+  "version": "0.1.0",
+  "private": false,
+  "description": "OpenLayers location and route navigation component for geo maps and indoor image maps.",
+  "homepage": "https://glzcc.github.io/ol-location-navigation/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glzcc/ol-location-navigation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/glzcc/ol-location-navigation/issues"
+  },
+  "keywords": [
+    "openlayers",
+    "ol",
+    "navigation",
+    "route-planning",
+    "indoor-map",
+    "geolocation",
+    "vue",
+    "react",
+    "typescript"
+  ],
+  "type": "module",
+  "main": "./dist/ol-location-navigation.cjs",
+  "module": "./dist/ol-location-navigation.js",
+  "types": "./dist/index.d.ts",
+  "style": "./dist/ol-location-navigation.css",
+  "files": [
+    "dist",
+    "docs/assets",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/ol-location-navigation.js",
+      "require": "./dist/ol-location-navigation.cjs"
+    },
+    "./style.css": "./dist/ol-location-navigation.css"
+  },
+  "sideEffects": [
+    "*.css",
+    "**/*.css",
+    "*.vue"
+  ],
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "node scripts/clean-dist.mjs && npm run build:types && npm run build:lib",
+    "build:demo": "vue-tsc --noEmit && vite build",
+    "build:lib": "vite build --config vite.lib.config.ts",
+    "build:types": "vue-tsc -p tsconfig.build.json",
+    "typecheck": "vue-tsc --noEmit",
+    "test": "vitest run --config vitest.config.ts",
+    "test:ui": "playwright test"
+  },
+  "peerDependencies": {
+    "ol": "^10.3.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "vue": "^3.5.13"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    },
+    "react-dom": {
+      "optional": true
+    },
+    "vue": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^26.0.1",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "@vitejs/plugin-react": "^4.3.4",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "ol": "^10.3.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7",
+    "vitest": "^2.1.8",
+    "vue": "^3.5.13",
+    "vue-tsc": "^2.2.0"
+  }
+}
