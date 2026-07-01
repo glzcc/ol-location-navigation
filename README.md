@@ -8,6 +8,8 @@ GitHub Pages:
 
 https://glzcc.github.io/ol-location-navigation/
 
+![定位导航工作台示例](docs/assets/location-navigation-demo.png)
+
 ## 第一版能力
 
 - JSON 路网导入导出：节点、边、楼层、POI。
